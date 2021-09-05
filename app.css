@@ -1,0 +1,59 @@
+body{
+    background-color: #f5d9df;
+    font-family: "Nunito", sans-serif;
+}
+p{
+    line-height:2 ;
+    color:rgb(160, 92, 92);
+}
+#MainNav .navbar-brand{
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgb(235, 184, 184);
+    font-family: 'Allison', cursive;
+}
+
+.firsthead{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(160, 92, 92);
+}
+ul{
+    font-size: 1rem;
+}
+nav{
+    background-color: rgba(126, 71, 80, 0.7) ;
+}
+#MainNav{
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 15px;
+}
+#MainNav .nav-link{
+    color: white;
+}
+
+#MainNav .nav-link:hover, #MainNav .nav-link:focus{
+    color: rgb(214, 29, 29);
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0rem;
+    padding-left:0rem;
+    margin-bottom: 30px;
+}
+
+#nameofoutlet span{
+    color: rgb(214, 29, 29);
+}
+#nameofoutlet h2{
+    font-weight: 800;
+    font-size: 3rem;;
+}
+
+
+@media  (max-width:1200px)
+{
+    #nameofoutlet h2{
+        font-size: 2.5rem;
+    }
+}
